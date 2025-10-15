@@ -1,0 +1,9 @@
+{
+  "domain": "aquael_thermometer_link",
+  "name": "Aquael Thermometer Link",
+  "documentation": "https://github.com/Stiesel/aquael_thermometer_link",
+  "dependencies": [],
+  "codeowners": ["@Stiesel"],
+  "requirements": ["requests"],
+  "version": "0.1.0"
+}
