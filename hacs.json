@@ -2,7 +2,7 @@
   "name": "Aquael Thermometer Link",
   "domain": "aquael_thermometer_link",
   "country": "DE",
-  "homeassistant": "2023.0.0",
+  "homeassistant": "2025.10.0",
   "iot_class": "local_polling",
   "integration_type": "integration",
   "codeowners": ["@Stiesel"]
