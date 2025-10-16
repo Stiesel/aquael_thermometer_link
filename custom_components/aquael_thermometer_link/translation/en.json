@@ -1,0 +1,33 @@
+{
+  "title": "Aquael Thermometer Link",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect Thermometer",
+        "description": "Enter the IP address and settings of your Aquael thermometer.",
+        "data": {
+          "ip_address": "IP Address",
+          "name": "Name",
+          "description": "Description",
+          "scan_interval": "Polling interval (seconds)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the thermometer.",
+      "invalid_ip": "Invalid IP address format.",
+      "unknown": "An unknown error occurred."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Adjust Options",
+        "data": {
+          "scan_interval": "Polling interval (seconds)",
+          "description": "Description"
+        }
+      }
+    }
+  }
+}
