@@ -1,7 +1,7 @@
 {
   "domain": "aquael_thermometer_link",
   "name": "Aquael Thermometer Link",
-  "version": "0.2.0-beta",
+  "version": "0.2.1",
   "documentation": "https://github.com/Stiesel/aquael_thermometer_link",
   "requirements": [
     "requests"
@@ -10,5 +10,6 @@
   "codeowners": [
     "@Stiesel"
   ],
-  "config_flow": true
+  "config_flow": true,
+  "homeassistant": "2025.10.0"
 }
