@@ -3,9 +3,11 @@
   "name": "Aquael Thermometer Link",
   "version": "1.0.0",
   "documentation": "https://github.com/Stiesel/aquael_thermometer_link",
-  "requirements": [],
+  "requirements": ["requests"],
   "dependencies": [],
   "codeowners": ["@Stiesel"],
+  "iot_class": "local_polling",
+  "integration_type": "integration",
   "config_flow": true,
   "homeassistant": "2025.10.0"
 }
